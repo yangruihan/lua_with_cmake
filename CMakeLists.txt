@@ -24,3 +24,8 @@ add_executable(
     ${SOURCES}
     ${HEADERS}
 )
+
+target_link_libraries(
+    ${PROJ_NAME}
+    m
+)
